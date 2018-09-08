@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DocumentSMG Version="7.000000" VersionSeemage="7.2.0.2945">
+  <Server Type="PropertyDefinitions">
+    <MetaProperties />
+  </Server>
+  <Server Type="CLitKBOMManager">
+    <BOM.Filter Value="0" />
+    <ColumnTreeList.ColumnList>
+      <ColumnTree>
+        <ColumnTree.Name Value="Bom.Description" />
+        <ColumnTree.Width Value="200" />
+        <ColumnTree.CommonRoot Value="0" />
+        <ColumnTree.Label Value="" />
+      </ColumnTree>
+      <ColumnTree>
+        <ColumnTree.Name Value="Actor.BomId" />
+        <ColumnTree.Width Value="50" />
+        <ColumnTree.CommonRoot Value="0" />
+        <ColumnTree.Label Value="" />
+      </ColumnTree>
+      <ColumnTree>
+        <ColumnTree.Name Value="Bom.Quantity" />
+        <ColumnTree.Width Value="50" />
+        <ColumnTree.CommonRoot Value="0" />
+        <ColumnTree.Label Value="" />
+      </ColumnTree>
+    </ColumnTreeList.ColumnList>
+    <BOM.Sort.Ascendant Value="1" />
+    <BOM.Sort.PropertyName Value="Bom.Description" />
+  </Server>
+  <Server Type="CLitKDisplayDataManager">
+    <ColumnTreeList.ColumnList />
+    <DisplayData.AssemblyTree.MultiColumn Value="0" />
+    <DisplayData.AssemblyTree.AlphabeticSort Value="0" />
+    <DisplayData.AssemblyTree.Views.AlphabeticSort Value="0" />
+    <DisplayData.AssemblyTree.ColumnWidth Value="150" />
+  </Server>
+  <Server Type="CLitSnapManager" />
+  <Server Type="CLitViewportManager">
+    <CameraSmoothThreshold Value="5000" />
+    <CameraSmoothTime Value="990" />
+    <HighLighting Value="1" />
+    <OutlineAngle Value="0.6" />
+    <OutlineColor R="0" G="0" B="32" />
+    <OutlineColorPerActor Value="0" />
+    <BkLogo Value="0" />
+    <BkLogoPath Value="" />
+    <ViewUser1 Value="Custom 1;30.000000;30.000000;ortho;" />
+    <ViewUser2 Value="Custom 2;120.000000;30.000000;ortho;" />
+    <ViewUser3 Value="Custom 3;0.000000;0.000000;ortho;" />
+    <ViewUser4 Value="Custom 4;45.000000;0.000000;ortho;" />
+    <PmiAutoFade Value="0" />
+    <GhostAlpha Value="8" />
+    <SelectionColor R="255" G="128" B="0" />
+    <SelectionAssyColor R="0" G="128" B="255" />
+    <HighLightColor R="0" G="255" B="0" />
+    <HighLightAssyColor R="0" G="128" B="255" />
+    <CrossHAlwaysOnTop Value="1" />
+    <CrossHSelectionColor R="255" G="128" B="0" />
+    <CrossHHighlightColor R="0" G="255" B="0" />
+    <CrossHAlpha Value="128" />
+    <CrossHBackCulling Value="0" />
+    <RenderMode Value="0" />
+    <PrimitiveOffset Value="3" />
+    <Layout Value="0" />
+  </Server>
+  <Server Type="CLitViewManager" />
+  <Server Type="CLitKSelectionManager" />
+  <Server Type="CLitImageManager" />
+  <Server Type="CLitIOManager" FileIdent="b3975a26ae42b900">
+    <IOImportMassProperties Value="0" />
+    <IOLanguage Value="" />
+    <IOPackage64Bits Value="0" />
+    <IOUseSmgView Value="0" />
+    <IOUseInternalSmgView Value="0" />
+    <IOFileSmgView Value="" />
+    <IOProfileHighRes Value="" />
+    <IOProfileVecto Value="" />
+    <IOReduceAccuracy Value="0" />
+    <IOReduceAccuracyValue Value="0.1" />
+    <IOCompressionBits Value="16" />
+    <IOWriteNormals Value="1" />
+    <AVIChangeWndResolution Value="0" />
+    <AVIWidth Value="600" />
+    <AVIHeight Value="400" />
+    <AVIRange Value="0" />
+    <AVIRangeStart Value="0" />
+    <AVIRangeEnd Value="0" />
+    <IOImportAsBodies Value="0" />
+    <IOMergeFileInOneActor Value="0" />
+    <IOMergeFileInOneActorUsingCGR Value="1" />
+    <IOMergeFileInOneFile Value="1" />
+    <IOImportPoints Value="0" />
+    <IOImportTextures Value="1" />
+    <IOImportPMIs Value="0" />
+    <IOImportPMIsOverrideColor Value="0" />
+    <IOImportPMIsOverriddenColor R="0" G="0" B="0" />
+    <IOImportCurves Value="0" />
+    <IOImportFreeFaces Value="1" />
+    <IOImportNoShow Value="1" />
+    <IOImportGraphicData Value="0" />
+    <IOUseFlatMethod Value="4" />
+    <IONodeFeatureName Value="0" />
+    <IONodeInstanceName Value="0" />
+    <IOImportMetas Value="1" />
+    <IOImportMetaDisciplines Value="CATPIP;PIP;ExtPIP;CATTUB;TUB;ExtTUB;CATELE;ELE;ExtELE" />
+    <IOImportCoordinateSystem Value="0" />
+    <IO3dxmlImportOnlyLeafGeometries Value="1" />
+    <IOSWImportGraphicData Value="0" />
+    <IOSWImportCloneSamePartInstances Value="1" />
+    <IOImportGeometriesAsTriangleStripSet Value="1" />
+    <IOImportCurvesStayOnTop Value="0" />
+    <IOImportPointsStayOnTop Value="0" />
+    <IOCV5ManageGeometryInCapture Value="1" />
+    <IOCV5ManageFtaMirroring Value="0" />
+    <IOCV4TranslateOnlyRootEntities Value="1" />
+    <IOImportViews Value="1" />
+    <IOImportSWLightweight Value="1" />
+    <IOImportSWAutoRegisterPlugin Value="1" />
+    <IOFilterFeatures Value="0" />
+    <IOFeaturesFilterPath Value="" />
+    <IOFeaturesFilter>
+      <IOFeaturesFilter />
+    </IOFeaturesFilter>
+    <IOImportSWConfigName Value="" />
+    <IORefinement Value="0.51" />
+    <IOHealing Value="0" />
+    <IORefinementType Value="0" />
+    <IORelativeRefinementFunction Value="0" />
+    <IOSetChordalError Value="1" />
+    <IOSetNormalDeviation Value="0" />
+    <IOSetEdgeLength Value="0" />
+    <IOChordalErrorValue Value="0.2" />
+    <IONormalDeviationValue Value="20" />
+    <IOEdgeLengthValue Value="20" />
+    <IOIdentifierType Value="1" />
+    <IOPDFPublishType Value="0" />
+    <IOPDFTemplate Value="" />
+    <IOU3dScaleFactor Value="1" />
+    <UpdateAddNewObjects Value="0" />
+    <UpdateRemoveOldObjects Value="0" />
+    <UpdateModifyGeometry Value="1" />
+    <UpdateCheckIssuedFrom Value="0" />
+    <UpdateAllOccurences Value="0" />
+    <View.VisibleBehavior Value="2" />
+    <ExportOnlyVisible Value="1" />
+    <ExportCollaborations Value="0" />
+    <LaunchAction Value="0" />
+    <OutlineOnDemand Value="1" />
+    <ViewNameTemplate Value="View %viewnumber%" />
+    <History Type="CLitVersionHistoryList" CRC="3504025654" LastVersionNumber="1.0.4" AutoSaveNumber="5">
+      <Server Type="CLitList">
+        <CLitVersionHistory>
+          <VersionNumber Value="1.0.0" />
+          <AutoSaveNumber Value="1" />
+          <UserName Value="AG7" />
+          <DateTime Year="2016" Month="11" Day="10" Hour="20" Min="48" Sec="35" />
+          <Product Value="CATIA Composer Converter R2016x x64 Edition - Build 7.2.0.2945 (10/08/2015)" />
+          <Comment Value="Imported in CATIA Composer" />
+        </CLitVersionHistory>
+        <CLitVersionHistory>
+          <VersionNumber Value="1.0.1" />
+          <AutoSaveNumber Value="2" />
+          <UserName Value="AG7" />
+          <DateTime Year="2016" Month="11" Day="10" Hour="20" Min="54" Sec="50" />
+          <Product Value="CATIA Composer R2016x x64 Edition - Build 7.2.0.2945 (10/08/2015)" />
+          <Comment Value="" />
+        </CLitVersionHistory>
+        <CLitVersionHistory>
+          <VersionNumber Value="1.0.2" />
+          <AutoSaveNumber Value="3" />
+          <UserName Value="AG7" />
+          <DateTime Year="2016" Month="12" Day="5" Hour="18" Min="51" Sec="22" />
+          <Product Value="CATIA Composer R2016x x64 Edition - Build 7.2.0.2945 (10/08/2015)" />
+          <Comment Value="" />
+        </CLitVersionHistory>
+        <CLitVersionHistory>
+          <VersionNumber Value="1.0.3" />
+          <AutoSaveNumber Value="4" />
+          <UserName Value="AG7" />
+          <DateTime Year="2016" Month="12" Day="5" Hour="19" Min="14" Sec="41" />
+          <Product Value="CATIA Composer R2016x x64 Edition - Build 7.2.0.2945 (10/08/2015)" />
+          <Comment Value="" />
+        </CLitVersionHistory>
+        <CLitVersionHistory>
+          <VersionNumber Value="1.0.4" />
+          <AutoSaveNumber Value="5" />
+          <UserName Value="AG7" />
+          <DateTime Year="2016" Month="12" Day="6" Hour="10" Min="9" Sec="46" />
+          <Product Value="CATIA Composer R2016x x64 Edition - Build 7.2.0.2945 (10/08/2015)" />
+          <Comment Value="" />
+        </CLitVersionHistory>
+      </Server>
+    </History>
+    <RightManager Value="1557561124" CRC="-792079942" />
+  </Server>
+  <Server Type="CLitQueryManager" />
+  <Server Type="CLitTextureManager" />
+  <Server Type="CLitLoadOnDemandManager" />
+  <Server Type="CLitLinkManager" />
+  <Server Type="CLitVideoCameraManager" />
+  <Server Type="CLitClearanceCheckingManager" />
+  <Server Type="CLitCalloutManager">
+    <CalloutMinSize Value="0" />
+    <ShowCalloutExponentX1 Value="0" />
+    <CalloutAutoSize Value="0" />
+  </Server>
+  <Server Type="CLitKineoWorksManager" />
+  <Server Type="CLitClearanceRealTimeManager" />
+  <Server Type="CLitKinematicManager" />
+  <Server Type="CLitKProcessManager" />
+  <Server Type="CLitPaperOutputManager">
+    <Vectorize.Paper.Format Value="A4" />
+    <Vectorize.Paper.Width Value="210" />
+    <Vectorize.Paper.Height Value="297" />
+    <Vectorize.Paper.Landscape Value="1" />
+    <PaperOutput.PointSize Value="2" />
+    <PaperOutput.LineWidth Value="0.5" />
+    <PaperOutput.ArrowSize Value="4" />
+    <PaperOutput.FontSize Value="11" />
+    <PaperOutput.CSSize Value="20" />
+    <PaperOutput.QuotationRedLineWidth Value="1" />
+    <PaperOutput.size Value="0" />
+  </Server>
+  <Server Type="CLitUnitManager">
+    <Unit.Length Type="0" Range="1" Precision="2" Separator="44" ShowName="0" RangeLitToSI="1" />
+    <Unit.Angle Type="1" Range="0" Precision="2" Separator="44" ShowName="0" RangeLitToSI="1" />
+    <Unit.Area Type="6" Range="2" Precision="2" Separator="44" ShowName="0" RangeLitToSI="1" />
+    <Unit.Volume Type="7" Range="2" Precision="2" Separator="44" ShowName="0" RangeLitToSI="1" />
+  </Server>
+  <Server Type="CLitVectorizeManager">
+    <CGMMetafileName Value="" />
+  </Server>
+  <Server Type="CLitSelectionHotSpotManager" />
+  <Server Type="CLitStepManager">
+    <NextTagID Value="1" />
+  </Server>
+  <Server Type="CLitServerModifiable">
+    <CLitAssyRoot Ident="-1" NodeType="0">
+      <Neutral>
+        <Actor.Name Value="Razrab_okt" />
+      </Neutral>
+      <CLitActorMesh Ident="PAcDbCirc4347" IdentGeom="adb8a0f64b5cef2d">
+		<MeshAttributes>
+          <BBox>
+            <Min X="827780" Y="1824783" Z="145329" />
+            <Max X="830941" Y="1839927" Z="150099" />
+          </BBox>
+          <NbTriangles Value="1" />
+        </MeshAttributes>
+        <Neutral>
+          <Actor.ChordalError Value="829.9759" />
+          <Actor.GeometryType Value="2" />
+          <Actor.IssuedFrom Value="assembly-FreeParts.sab" />
+          <Actor.Location>
+            <Frame />
+            <Pivot>
+              <Origin X="829360.5" Y="1832355" Z="147714" />
+              <VX X="1" Y="0" Z="0" />
+              <VY X="0" Y="1" Z="0" />
+            </Pivot>
+          </Actor.Location>
+          <Actor.Name Value="Colored" />
+          <Actor.Prop.BboxVolume Value="" />
+          <Actor.ToolTip Value="Colored" />        
+        </Neutral>
+      </CLitActorMesh>
+      <CLitActorMesh Ident="PAcDbCirc5796" IdentGeom="8e9a630052ae0391">
+        <MeshAttributes>
+          <BBox>
+            <Min X="830438.8" Y="1824778" Z="150376.3" />
+            <Max X="836356" Y="1835058" Z="150455.9" />
+          </BBox>
+          <NbTriangles Value="1" />
+        </MeshAttributes>
+        <Neutral>
+          <Actor.ChordalError Value="829.9759" />          
+          <Actor.GeometryType Value="2" />
+          <Actor.IssuedFrom Value="assembly-FreeParts.sab" />
+          <Actor.Location>
+            <Frame />
+            <Pivot>
+              <Origin X="833397.4" Y="1829918" Z="150416.1" />
+              <VX X="1" Y="0" Z="0" />
+              <VY X="0" Y="1" Z="0" />
+            </Pivot>
+          </Actor.Location>
+          <Actor.Name Value="Top" />
+          <Actor.Prop.BboxVolume Value="" />
+          <Actor.ToolTip Value="Top" />
+        </Neutral>
+      </CLitActorMesh>
+      <CLitActorMesh Ident="PAcDbCirc4197" IdentGeom="a10ac935291eb399">
+        <MeshAttributes>
+          <BBox>
+            <Min X="818478" Y="1828378" Z="145329" />
+            <Max X="827780" Y="1842178" Z="145638" />
+          </BBox>
+          <NbTriangles Value="1" />
+        </MeshAttributes>
+        <Neutral>
+          <Actor.ChordalError Value="829.9759" />
+          <Actor.Color R="12" G="12" B="12" />
+          <Actor.GeometryType Value="2" />
+          <Actor.IssuedFrom Value="assembly-FreeParts.sab" />
+          <Actor.Location>
+            <Frame />
+            <Pivot>
+              <Origin X="823129" Y="1835278" Z="145483.5" />
+              <VX X="1" Y="0" Z="0" />
+              <VY X="0" Y="1" Z="0" />
+            </Pivot>
+          </Actor.Location>
+          <Actor.Name Value="Bottom" />
+          <Actor.Prop.BboxVolume Value="" />
+          <Actor.ToolTip Value="Bottom" />
+        </Neutral>
+      </CLitActorMesh>
+      <CLitTargetObject Ident="CLitTargetObjectId" NeutralVisibility="0">
+        <Dynamic>
+          <Anchor>1001#</Anchor>
+        </Dynamic>
+        <Neutral>
+          <Anchor.1001 AnchorId="1001" DragAble="1">
+            <Frame>
+              <Origin X="1028165" Y="2014769" Z="146983.5" />
+              <VX X="1" Y="0" Z="0" />
+              <VY X="0" Y="1" Z="0" />
+            </Frame>
+          </Anchor.1001>
+          <TargetDOF.AutoMode Value="0" />
+        </Neutral>
+      </CLitTargetObject>
+    </CLitAssyRoot>
+    <CLitViewport Ident="96f9fb97fd0f6204" IdentView="0">
+      <Neutral>
+        <Navigator.Camera.Vertical Value="2" />
+        <Viewport.Bk.Color R="255" G="255" B="255" />
+        <Viewport.Bk.Image.FillMode Value="0" />
+        <Viewport.Bk.Image.Path Value="" />
+        <Viewport.BkFoot.Color R="115" G="125" B="153" />
+      </Neutral>
+      <CLitNavigator Ident="a72dad33e2fb5688">
+        <Neutral>
+          <Navigator.Fly.Speed Value="0.005" />
+          <Navigator.Compass.SensitifMode Value="1" />
+          <Navigator.Compass.SizePixel Value="80" />
+          <Navigator.Compass.AbsoluteSize Value="1" />
+          <Navigator.Compass.Size Value="0.1" />
+          <Navigator.Compass.Translation X="0" Y="0" Z="0" />
+          <Navigator.Compass.GeomPath Value="" />
+          <Navigator.Compass.Visibility Value="1" />
+          <Navigator.Compass.Frame.Alignment />
+        </Neutral>
+      </CLitNavigator>
+      <CLitView Ident="83b93bf6780b5e2d" Name="SMG layer animation" Type="2" AppliedToDigger="1" AppliedToObject="1" AppliedToVisibility="1" AppliedToSelection="0" AppliedZoomFitAll="0" AppliedLocationProp="0" AppliedToMaterialProp="0" AppliedToOpacityProp="0" AppliedToLinkProp="0" AppliedToSelectedProperties="0" AppliedToHotSpotProperties="1" IsUsedByUpdatableCapture="0" AppliedToProperties="1">
+        <Ghostly>
+        </Ghostly>
+        <Living>8de56b9626a112e4#CLitActorGroundId#-1#</Living>
+      </CLitView>
+      <CLitDigger Ident="-1">
+        <Neutral />
+        <CLitDigClipPlane Ident="-1">
+          <Neutral />
+        </CLitDigClipPlane>
+        <CLitDigOnionSkin Ident="-1">
+          <Neutral />
+        </CLitDigOnionSkin>
+        <CLitDigXRay Ident="-1">
+          <Neutral />
+        </CLitDigXRay>
+        <CLitDigZoom Ident="-1">
+          <Neutral />
+        </CLitDigZoom>
+      </CLitDigger>
+    </CLitViewport>
+    <CLitVectorImageBOM Ident="CLitActorBOMId">
+      <Dynamic />
+      <Neutral>
+        <Actor.Alpha Value="255" />
+        <Actor.Name Value="BOM" />
+        <Actor.ToolTip Value="BOM" />
+        <Text.Font CharSet="204" ClipPrecision="0" Escapement="0" FaceName="MS Shell Dlg" Height="-11" Italic="0" Orientation="0" OutPrecision="0" PitchAndFamily="0" Quality="0" StrikeOut="0" Underline="0" Weight="400" Width="0" />
+        <Widget.Freeze Value="0" />
+        <Widget.Left Value="7" />
+        <Widget.Top Value="150.5" />
+        <Widget.Height Value="52.5" />
+        <Widget.Width Value="283" />
+        <Widget.BOM.Position Value="1" />
+        <Widget.BOM.Percentage Value="25" />
+        <Widget.BOM.FilterOnVisibleCallouts Value="1" />
+        <Widget.ShadowOpacity Value="140" />
+        <Widget.BOM.LabelCellColor R="240" G="240" B="255" />
+        <Widget.BOM.OddCellColor R="255" G="255" B="255" />
+        <Widget.BOM.EvenCellColor R="240" G="240" B="255" />
+        <Widget.BOM.TextCellColor R="0" G="0" B="0" />
+        <Widget.BOM.TextLabelColor R="0" G="0" B="0" />
+        <Widget.BOM.AdvancedHighlightEnabled Value="0" />
+        <Widget.ShadowEnable Value="0" />
+        <Widget.ShadowDistance Value="3.000000" />
+        <Widget.ShadowOrientation Value="45" />
+        <Widget.ShadowBlur Value="12" />
+      </Neutral>
+    </CLitVectorImageBOM>
+    <CLitActorGround Ident="CLitActorGroundId">
+      <Neutral>
+        <Actor.Location>
+          <Frame />
+          <Pivot />
+        </Actor.Location>
+        <Actor.Name Value="Ground" />
+        <Texture.UV.Scale Value="50" />
+        <Viewport.Render.GroundGrid Value="1" />
+        <Viewport.Render.GroundShadows Value="0" />
+        <Viewport.Render.GroundShadowsNbPass Value="8" />
+        <Ground.LocalLocation>
+          <Frame />
+          <Pivot />
+        </Ground.LocalLocation>
+        <Ground.Auto.Size Value="1" />
+        <Ground.Auto.Center Value="1" />
+        <Ground.Auto.Height Value="1" />
+        <Ground.Auto.Fit Value="1" />
+        <Ground.Diameter Value="5" />
+        <Viewport.Rennder.GroundTexture Value="%DS%" />
+        <Ground.Color R="255" G="255" B="255" />
+        <Viewport.Rennder.GroundAlpha Value="255" />
+        <Ground.FallOff Value="33" />
+        <Viewport.Render.GroundReflect Value="0" />
+        <Viewport.Rennder.GroundReflect.Opacity Value="127" />
+        <Ground.Grid.Show Value="1" />
+        <Ground.Grid.Color R="0" G="0" B="0" />
+        <Ground.Grid.Alpha Value="76.5" />
+        <Ground.Grid.SizeRatio Value="100" />
+        <Ground.Grid.Scale Value="1" />
+        <Ground.Border.Show Value="0" />
+        <Ground.Border.Color R="125" G="125" B="125" />
+        <Viewport.Render.GroundReflect.Blur Value="1" />
+      </Neutral>
+    </CLitActorGround>
+    <CLitBOMInfo>
+      <Neutral />
+    </CLitBOMInfo>
+    <CLitCameraActor Ident="CameraActorId" NeutralVisibility="0">
+      <Dynamic>
+        <Anchor>1#2#</Anchor>
+      </Dynamic>
+      <Neutral>
+        <Actor.Color R="255" G="255" B="255" />
+        <Actor.Name Value="Camera" />
+        <Navigator.Camera.Fov Value="0.7853982" />
+        <Navigator.Camera.Height Value="1" />
+        <Navigator.Camera.Proj.Persp Value="1" />
+        <Anchor.1 AnchorId="1" DragAble="1">
+          <Frame>
+            <Origin X="845167" Y="1851228" Z="165642.4" />
+            <VX X="-0.7071068" Y="0.7071068" Z="0" />
+            <VY X="-0.4082483" Y="-0.4082483" Z="0.8164966" />
+          </Frame>
+        </Anchor.1>
+        <Anchor.2 AnchorId="2" DragAble="1">
+          <Frame>
+            <Origin X="827417.2" Y="1833478" Z="147892.5" />
+            <VX X="-0.7071069" Y="0.7071069" Z="0" />
+            <VY X="-0.4082484" Y="-0.4082484" Z="0.8164967" />
+          </Frame>
+        </Anchor.2>
+        <Navigator.Camera.Interpolator Value="0" />
+        <Navigator.Camera.Arcball Value="1" />
+        <Camera.Pitch Value="1" />
+        <Camera.Roll Value="1" />
+        <Camera.Yaw Value="1" />
+        <Camera.LockDistCOI Value="0" />
+        <Camera.DistCOI Value="30743.54" />
+      </Neutral>
+    </CLitCameraActor>
+  </Server>
+  <Server Type="CLitList">
+    <CLitSelection Name="Layer   2    (assembly-FreeParts)" Ident="8711fcc9e0c34271">PAcDbCirc4347#PAcDbCirc5796#PAcDbCirc4197#</CLitSelection>
+  </Server>
+</DocumentSMG>
